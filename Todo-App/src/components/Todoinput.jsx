@@ -21,12 +21,10 @@ const Todoinput = (props) => {
 
             <button className='add-btn'
             onClick={() => {
-                if(inputText == ""){
-                    alert("List Should Not Be Empty");
-                }
-                else{
-                    props.addList(inputText)
-                }
+            if(inputText == "")
+                alert("List Should Not Be Empty");
+            else
+                props.addList(inputText)
             setInputText("")
             }}>+</button>
         </div >

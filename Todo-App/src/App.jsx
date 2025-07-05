@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div className='main-container'>
-      <div className="cente-container">
+      <div className="center-container">
         <Todoinput addList={addList}></Todoinput>
         <h1 className='app-heading'>TODO</h1>
         <hr />
