@@ -25,7 +25,7 @@ function ChipsInput() {
       <h2>Chips Input</h2>
       <input
         type="text"
-        placeholder="Type a chip and press tag"
+        placeholder="Type a chips and press tag"
         value={inputText}
         style={{ padding: "8px", width: "200px" }}
         onChange={(e) => setInputText(e.target.value)}
